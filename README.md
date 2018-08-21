@@ -1,5 +1,7 @@
 emscripten で WebAssembly にした mruby で矩形の衝突判定を動かして、mruby寄りの実装とC寄りの実装の速度を比較する。
 
+blog: <https://kabies.github.io/2018/08/21/mruby-emscripten-benchmark.html>
+
 以下、macbook air ( i7 @ 1.7GHz ) と iPhone7 での参考記録
 
 ### 100 enemies / 1000 bullets
