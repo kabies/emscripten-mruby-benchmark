@@ -82,3 +82,10 @@ bullets = 100.times.map{ Rect.new( rand(640), rand(480), 2,2 ) }
 all_in_mruby enemies.dup, bullets.dup
 via_instance_value enemies.dup, bullets.dup
 via_struct enemies.dup, bullets.dup
+
+
+enemies = 100.times.map{ Rect.new( rand(640), rand(480), 32, 32 ) }
+bullets = 100.times.map{ Rect.new( rand(640), rand(480), 2,2 ) }
+all_in_mruby enemies.dup, bullets.dup
+via_instance_value enemies.dup, bullets.dup
+via_struct enemies.dup, bullets.dup
